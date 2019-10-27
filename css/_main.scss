@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: $bg-color-1;
+}
+h1 {
+    color: #cdcdcd;
+}
+
+.header {
+    border: 1px solid;
+    width: 100%;
+    // height: 250px;
+    position: fixed;
+    display: flex;
+    padding: 2vw;
+    transition: all .4s ease;
+
+    .h-left {
+        flex: 1;
+        align-items: center;
+    }
+
+    .h-center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .h-right {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center ;
+    }
+}
+
